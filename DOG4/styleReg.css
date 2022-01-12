@@ -1,0 +1,188 @@
+*{margin: 0;}
+
+.dog {
+    color:black;
+}
+
+.header {                              /*шапка вся*/
+    width: 100%;
+    height: 693px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headertop {                           /*шапка с меню*/
+    width: 1300px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.hedtopleft {                              /*логотип с DOG*/
+    width: 310px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.hedtopcenter {                              /*меню*/
+    width: 750px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.b1 {                              /*кнопка products*/
+    margin: 10px;
+    padding: 5px; 
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+    background: rgb(255, 255, 255);
+}
+
+button.b2 {                              /*кнопка Dog Care*/
+    margin: 10px;
+    padding: 5px; 
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+    background: rgb(255, 255, 255);
+}   
+
+button.b3 {                              /*кнопка About*/
+    margin: 10px;
+    padding: 5px; 
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+    background: rgb(255, 255, 255);
+}
+
+button.b4 {                              /*кнопка Popular*/
+    margin: 10px;
+    padding: 5px; 
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+    background: rgb(255, 255, 255);
+}
+
+.h2 {
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+}
+
+.Hello {
+    margin: 20px;
+    padding: 5px; 
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+    background: rgb(255, 255, 255);
+}
+
+.text {
+    margin: 10px;
+    font-size: 17px; 
+    color: Black; 
+    text-align: center; 
+    border: 0px; 
+    cursor: pointer; 
+    outline: none;
+    font-family:Roboto-Regular;
+    background: rgb(255, 255, 255);
+}
+
+.inp {
+    margin: 10px; 
+}
+
+.regtex2 {
+    width: 140px;
+    height: 30px;
+    background: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-family: "Roboto-Light";
+    font-size: 16px;
+}
+
+.sslka {
+    color: orange;
+}
+
+.sslkacol:hover{
+    color: rgb(75, 49, 20);
+}
+
+.enter {
+    width: 88px;
+    height: 35px;
+    background: orange;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-family: "Roboto-Light";
+    font-size: 15px;
+}
+
+.enterCol:hover{
+    background: white;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.center {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    width: 88px;
+    height: 35px;
+    color: orange;
+    border: 0px;
+    border-radius: 30px;
+    font-family: "Roboto-Light";
+    font-size: 15px;
+    text-align: center;
+}
+
+.cntReg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+*{margin: 0;}
+
+.resqrt {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    font-family:Roboto-Regular;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qwert {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    font-family:Roboto-Light;
+}
+
+.tfftttt {
+    width: 950px;
+    height: 50px;
+    display: flex;
+}

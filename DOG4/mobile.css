@@ -1,0 +1,1041 @@
+
+@media(max-width: 480px) {
+
+    *{margin: 0;}
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {                              /*шапка вся*/
+        width: 920px;
+        height: 681px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        background: chartreuse;
+    }
+    
+    .headertop {                           /*шапка с меню*/
+        width: 830px;
+        height: 50px;
+        display: flex;
+        margin-top: 10px;
+        position: absolute;
+    }
+    
+    .hedtopleft {                              /*логотип с DOG*/
+        width: 310px;
+        height: 50px;
+        display: flex;
+        align-items:center;
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    
+    .hedtopcenter {                              /*меню*/
+        width: 750px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    button.b1 {                              /*кнопка products*/
+        margin: 10px;
+        padding: 5px; 
+        font-size: 17px; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer; 
+        outline: none;
+        font-family:Roboto-Regular;
+        background: rgb(255, 255, 255);
+    }
+    
+    button.b2 {                              /*кнопка Dog Care*/
+        margin: 10px;
+        padding: 5px; 
+        font-size: 17px; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer; 
+        outline: none;
+        font-family:Roboto-Regular;
+        background: rgb(255, 255, 255);
+    }   
+    
+    button.b3 {                              /*кнопка About*/
+        margin: 10px;
+        padding: 5px; 
+        font-size: 17px; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer; 
+        outline: none;
+        font-family:Roboto-Regular;
+        background: rgb(255, 255, 255);
+    }
+    
+    button.b4 {                              /*кнопка Popular*/
+        margin: 10px;
+        padding: 5px; 
+        font-size: 17px; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer; 
+        outline: none;
+        font-family:Roboto-Regular;
+        background: rgb(255, 255, 255);
+    }
+    
+    .col:hover{
+        color:rgba(104, 104, 104, 0.486);
+    }
+    
+    .hedtopright {                              /*поиск, корзна и меню*/
+        width: 285px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .headerbot {                              /*шапка с картинкой*/
+        width: 1300px;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hedbotleft {                              /*текст с кнопками*/
+        width: 540px;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .hblt {                                     /*текст*/
+        width: 600px;
+        font-family: "Roboto-Black";
+        font-size: 115px;
+        display: flex;
+    }
+    
+    .hblb {                                      /*кнопки после текста*/
+        width: 600px;
+        height: 103px;
+        display: flex;
+        align-items: center;
+    }
+    
+    button.b5 {                                      /*Кнопка Buy*/
+        width: 115px;
+        height: 50px;
+        background: orange;
+        color: white;
+        border: 0px;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-right: 12px;
+    }
+    
+    button.b6 {                                     /*Кнопка See Det*/
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid orange;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+    }
+    
+    .colb5:hover{
+        background: white;
+        color: orange;
+        border: 1px solid orange;
+    }
+    
+    .colb6:hover{
+        background: orange;
+        color: white;
+    }
+    
+    .hedbotright {                              /*МоПсиК*/
+        width: 350px;
+        height: 433px;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .corm {                                  /*Раздел корма*/
+        width: 920px;
+        height: 565px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: chocolate;
+    } 
+    
+    .cormleft {                                  /*Первый корм*/
+        width: 380px;
+        height: 300px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        margin-right: 30px;
+        border: 1px solid rgba(231, 230, 228, 0.856);
+        border-radius: 10px;
+        font-size: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .corm1svg {
+        height: 350px;
+        position: absolute;
+    }
+    
+    .cormlefttex {                                              /*Best Quality Products Pen Foods*/
+        font-family: "Roboto-Regular";
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .cormlefttex1 {                                              /*Dogs leave paw prints forever on our hearts*/
+        font-family: "Roboto-Thin";
+        font-size: 17px;
+        text-align: center;
+        color: rgb(80, 80, 80);
+        padding: 40px;
+    }
+    
+    .cormleftss {                                              /*Ссылка текстом*/          
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+    }
+    
+    .colss:hover{
+        background: rgb(255, 255, 255);
+        color: rgb(219, 145, 7);
+    }
+    
+    .cormcenter {                                  /*Второй корм*/
+        width: 380px;
+        height: 300px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        margin-right: 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        box-shadow:0 0 20px rgb(235, 200, 160);
+    }
+    
+    .cormright {                               /*Третий корм*/
+        width: 380px;
+        height: 300px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        border: 1px solid rgba(231, 230, 228, 0.856);
+        border-radius: 10px;
+        font-size: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .acses {                               /*ошейник*/
+        width: 920px;
+        height: 1200px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .acsestop {
+        width: 100%;
+        height: 193px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .acsestoph {
+        width: 700px;
+        height: 96px;
+        display: flex;
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-size: 25px;
+        text-align: center;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .acsestopp {
+        width: 540px;
+        height: 95px;
+        display: flex;
+        font-family: "Roboto-Light";
+        font-size: 17px;
+        text-align: center;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .acsescenter {                               /*ошейник*/
+        width: 1900px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .acscenkar {
+        width: 1500px;
+        height: 390px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .acscenkar1 {
+        width: 470px;
+        height: 320px;
+        display: flex;
+        background: url('ob1.JPG');
+        background-size: 435px;
+        border-radius: 10px;
+    }
+    
+    .acscenkar2 {
+        width: 470px;
+        height: 320px;
+        display: flex;
+        background: url('ob2.JPG');
+        background-size: 445px;
+        border-radius: 10px;
+    }
+    
+    .acscenkartex {
+        width: 1500px;
+        height: 76px;
+        display: flex;   
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .acscenkartex1 {
+        width: 470px;
+        height: 70px;
+        font-family: "Roboto-Regular";
+        font-size: 24px;
+        display: flex;
+        background:white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .acscenkartex2 {
+        width: 470px;
+        height: 70px;
+        font-family: "Roboto-Regular";
+        font-size: 24px;
+        display: flex;
+        background:white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .acscenkarbut {
+        width: 1500px;
+        height: 135px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .acscenkarbut1 {
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    .acscenkarbut2 {
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-right: 50px;
+    }
+    
+    
+    .acsesbot {                               /*ошейник*/
+        width: 1900px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .acsesbotkar {
+        width: 1500px;
+        height: 346px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .acsesbotkar1 {
+        width: 395px;
+        height: 260px;
+        display: flex;
+        background: url('ob3.JPG');
+        background-size: 420px;
+        border-radius: 10px;
+    }
+    
+    .acsesbotkar2 {
+        width: 395px;
+        height: 260px;
+        display: flex;
+        background: url('ob4.JPG');
+        background-size: 376px;
+        border-radius: 10px;
+    }
+    
+    .acsesbotkar3 {
+        width: 395px;
+        height: 260px;
+        display: flex;
+        background: url('ob5.JPG');
+        background-size: 392px;
+        border-radius: 10px;
+    }
+    
+    .acsesbottex {
+        width: 1500px;
+        height: 53px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .acsesbottex1 {
+        width: 470px;
+        height: 70px;
+        font-family: "Roboto-Regular";
+        font-size: 24px;
+        display: flex;
+        background:white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .acsesbottex2 {
+        width: 470px;
+        height: 70px;
+        font-family: "Roboto-Regular";
+        font-size: 24px;
+        display: flex;
+        background:white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .acsesbottex3 {
+        width: 470px;
+        height: 70px;
+        font-family: "Roboto-Regular";
+        font-size: 24px;
+        display: flex;
+        background:white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .acsesbotbut {
+        width: 1500px;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .acsesbotbut1 {
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    .acsesbotbut2 {
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    .acsesbotbut3 {
+        width: 115px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    .acsesbut {
+        width: 1900px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .acsesbut1 {
+        width: 160px;
+        height: 50px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 226, 198);
+        border-radius: 10px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    .colsbut:hover{                                 /*конец ошейника*/
+        background: orange;
+        color: rgb(255, 255, 255);
+    }
+    
+    .medicines {                                 /*уход за животным*/
+        width: 100%;
+        height: 950px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .medic {
+        width: 1500px;
+        height: 950px;
+        display: flex;
+        align-items:center;
+    }
+    
+    .medicleft {
+        width: 940px;
+        height: 666px;
+        background: url('med.JPG');
+        background-size: 788px;
+        display: flex;
+    }
+    
+    .medicright {
+        width: 866px;
+        height: 310px;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .medrtex {
+        width: 200px;
+        height: 250px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: orange;
+        font-family: "Roboto-Bold";
+        font-size: 20px;
+    }
+    
+    .medrtex1 {
+        width: 600px;
+        height: 250px;
+        font-family: "Roboto-Black";
+        font-size: 30px;
+    }
+    
+    .medrtex2 {
+        width: 650px;
+        height: 250px;
+        font-family: "Roboto-Thin";
+        font-size: 20px;
+    }
+    
+    .medrbut {
+        width: 300px;
+        height: 350px;
+        display: flex;
+    }
+    
+    button.medb {
+        width: 150px;
+        height: 50px;
+        background: orange;
+        color: white;
+        border: 0px;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 16px;
+        margin-right: 12px;
+    }
+     
+    .walk {                          /*прогулка*/
+        width: 100%;
+        height: 1250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .walktop {                                           /*прогулка Заголовок*/
+        width: 520px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto-Regular";
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .walktex {
+        width: 600px;
+        height: 250px;
+        font-family: "Roboto-Black";
+        font-size: 30px;
+    }
+    
+    .walkcenter {                                           /*прогулка содержание*/
+        width: 1920px;
+        height: 1025px;
+        display: flex;
+    }
+    
+    .walkcenterleft {                                    /*прогулка содержание левая часть*/
+        width: 640px;
+        height: 1017px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .walkcenterkar {
+        width: 640px;
+        height: 632px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .walkcentertex {
+        width: 640px;
+        height: 135px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto-Regular";
+        font-size: 40px;
+    }
+    
+    .walkcentertex1 {
+        width: 640px;
+        height: 145px;
+        display: flex;
+        font-family: "Roboto-Light";
+        font-size: 25px;
+        text-align: center;
+        color: rgb(53, 53, 53);
+        align-items: center;
+    }
+    
+    .walkcenterbut {
+        width: 640px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .wcb {                                               /*кнопка прогулка*/
+        width: 130px;
+        height: 70px;
+        background: white;
+        color: orange;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 20px
+    }
+    
+    .walkcenterc {                                    /*прогулка содержание центральная часть*/
+        width: 640px;
+        height: 1017px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .walkcenterright {                                     /*прогулка содержание левая правая часть*/
+        width: 640px;
+        height: 1017px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .walkbot {                                           /*прогулка кнопка*/
+        width: 420px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button.walkb {
+        width: 195px;
+        height: 70px;
+        background: orange;
+        color: white;
+        border: 0px;
+        border-radius: 27px;
+        font-family: "Roboto-Light";
+        font-size: 25px;
+        margin-right: 12px;
+    }
+    
+    .gallery {                           /*всякое-такое*/
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .galleryleft {
+        width: 1100px;
+        height: 598px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: orange;
+    }
+    
+    .gallerylefttex {
+        width: 800px;
+        height: 470px;
+        display: flex;
+        text-align: center;
+        align-items: flex-end;
+        justify-content: center;
+        font-family: "Roboto-Regular";
+        font-size: 65px;
+    }
+    
+    .gallerylefttex1 { 
+        width: 800px;
+        height: 470px;
+        display: flex;
+        align-content: center;
+        font-family: "Roboto-Light";
+        font-size: 27px;
+        text-align: center;
+        color: rgb(53, 53, 53);
+    }
+    
+    .galleryright {
+        width: 900px;
+        height: 710px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textkak {                /*Products Testimonial*/
+        width: 100%;
+        height: 62px;
+        display: flex;
+        font-family: "Roboto-Regular";
+        font-size: 65px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textkaksvg {
+        width: 100%;
+        height: 602px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .testimonial {
+        width: 1100px;
+        height: 502px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ops {
+        width: 100%;
+        height: 546px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .blue {
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+        width: 1475px;
+        height: 415px;
+        left: 180px;
+        top: 5095px;
+        background: #2E96FF;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .blueleft {
+        width: 630px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blueright {
+        width: 500px;
+        height: 55px;
+        display: flex;
+    }
+    
+    .bluein {
+        width: 366px;
+        height: 60px;
+        background: white;
+        color: rgb(136, 136, 136);
+        border: 0px;
+        font-family: "Roboto-Light";
+        font-size: 15px;
+    }
+    
+    .bluebut {
+        width: 150px;
+        height: 62px;
+        background: orange;
+        color: white;
+        border: 0px;
+        font-family: "Roboto-Light";
+        font-size: 20px;
+    }
+    
+    .bluelefttop {
+        width: 380px;
+        height: 100px;
+        color: white;
+        font-family: "Roboto-Regular";
+        font-size: 35px;
+    }
+    
+    .blueleftbot {
+        width: 513px;
+        height: 58px;
+        color: rgb(197, 197, 197);
+        font-family: "Roboto-Regular";
+        font-size: 20px;
+    }
+    
+    .footer {                                   /*the end*/
+        width: 100%;
+        height: 400px;
+        background: #140A03;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footerleft {
+        width: 500px;
+        height: 400px;
+        display: flex;
+        color: rgb(197, 197, 197);
+        font-family: "Roboto-Regular";
+        font-size: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .fotb {                                     
+        width: 178px;
+        height: 50px;
+        background: #140A03;
+        color: rgb(207, 207, 207);
+        border: 0px;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 22px;
+        text-decoration: none;
+    }
+    
+    .fotb1 {                                 
+        width: 300px;
+        height: 50px;
+        background: #140A03;
+        color: orange;
+        border: 0px;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .fotb2 {                                     
+        width: 419px;
+        height: 50px;
+        background: #140A03;
+        color: rgb(207, 207, 207);
+        border: 0px;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    
+    .fotcol:hover {
+        color:rgb(255, 255, 255);
+    }
+    
+    .footercenter {
+        width: 500px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footercenterlogo {
+        width: 500px;
+        height: 143px;
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-family: "Roboto-Regular";
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .footercenterprilo {
+        width: 500px;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ssilki{
+        width: 115px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footerright {
+        width: 500px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .fotrb {                                     
+        width: 178px;
+        height: 50px;
+        background: #140A03;
+        color: rgb(207, 207, 207);
+        border: 0px;
+        border-radius: 30px;
+        font-family: "Roboto-Light";
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 22px;
+        text-decoration: none;
+        justify-content: flex-end;
+    }
+    
+}

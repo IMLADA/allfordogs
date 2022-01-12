@@ -1,0 +1,52 @@
+* {margin: 0;}
+
+.korContent {
+    width: 900px;
+    height: 220px;
+    display: flex;
+    margin: 100px auto;
+}
+
+.korProd {
+    width: 597px;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.korStrok {
+    width: 100px;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.korZakaz {
+    width: 395px;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.korKup {
+    width: 95px;
+    height: 45px;
+    background: orange;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-family: "Roboto-Light";
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.colKorZen:hover{
+    background: white;
+    color: orange;
+    border: 1px solid orange;
+}
